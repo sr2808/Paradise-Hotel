@@ -23,6 +23,14 @@
 
 
     </style>
+
+    <script>
+        function disp()
+        {
+            console.log("hello world");
+            alert("Your Details are saved successfully. We will Contact you soon. Thank You for choosing us :) ")
+        }
+    </script>
 </head>
 
 <body id="abtUS" style="margin:0%;">
@@ -47,46 +55,49 @@
 
         <div style="text-align: center; margin-top: 5%; background-color: rgb(190, 122, 236); width: 600px; margin: auto; padding:17px; border-radius: 7%;">
             <h2 style="letter-spacing: normal">Guest Information</h2>
-            <table align="center" cellspacing="20px">
-                <tr>
-                    <td>Name <br><input type="text" placeholder="First Name" required></td>
-                    <td><br><input type="text" placeholder="Last Name" required></td>
-                </tr>
+            <form onsubmit="disp()">
 
-                <tr>
-                    <td>E-mail <br> <input type="email" placeholder="example@example.com"></td>
-                    <td>Phone Number <br> <input type="text" placeholder="Enter a valid phone number" required></td>
-                </tr>
-
-                <tr>
-                    <td colspan="2">Address <BR>
-                    <textarea cols="55" rows="5" placeholder="Please enter your valid address here..."></textarea></BR></td>
+                <table align="center" cellspacing="20px">
+                    <tr>
+                        <td>Name <br><input type="text" placeholder="First Name" required></td>
+                        <td><br><input type="text" placeholder="Last Name" required></td>
+                    </tr>
                     
-                </tr>
-            </table>
-            <hr>
-            <h2 style="letter-spacing: normal;">Booking Information</h2>
-            <table align="center" cellspacing="20px">
-                <tr>
-                    <td>Check-in Date <br> <input type="date" placeholder="MM-DD-YYYY" required></td>
-                    <td>Check-out Date <br> <input type="date" placeholder="MM-DD-YYYY" required></td>
-                </tr>
-
-                <tr>
-                    <td colspan="2">Pick Up Location <br>  <textarea cols="55" rows="5" placeholder="Please enter your valid address here..."></textarea></BR></td>
-                </tr>
-
-                <tr>
-                    <td>Number of Guests <br> <input type="text" placeholder="e.g., 4"></td>
-                </tr>
-
-                <tr>
-                    <td colspan="2">Comment <br> <textarea cols="55" rows="5" placeholder="Add description about your tour..."></textarea></td>
-                </tr>
-            </table>
-
-            <button style="text-align:center; padding: 10px; border-radius: 25%; background-color: rgb(200, 102, 187); width: 130px;border-color:  rgb(200, 102, 187);">Submit</button><br><br>
-        </div>
+                    <tr>
+                        <td>E-mail <br> <input type="email" placeholder="example@example.com"></td>
+                        <td>Phone Number <br> <input type="text" placeholder="Enter a valid phone number" required></td>
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="2">Address <BR>
+                            <textarea cols="55" rows="5" placeholder="Please enter your valid address here..."></textarea></BR></td>
+                            
+                        </tr>
+                    </table>
+                    <hr>
+                    <h2 style="letter-spacing: normal;">Booking Information</h2>
+                    <table align="center" cellspacing="20px">
+                        <tr>
+                            <td>Check-in Date <br> <input type="date" placeholder="MM-DD-YYYY" required></td>
+                            <td>Check-out Date <br> <input type="date" placeholder="MM-DD-YYYY" required></td>
+                        </tr>
+                        
+                        <tr>
+                            <td colspan="2">Pick Up Location <br>  <textarea cols="55" rows="5" placeholder="Please enter your valid address here..."></textarea></BR></td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Number of Guests <br> <input type="text" placeholder="e.g., 4"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td colspan="2">Comment <br> <textarea cols="55" rows="5" placeholder="Add description about your tour..."></textarea></td>
+                        </tr>
+                    </table>
+                    
+                    <button  type="submit" style="text-align:center; padding: 10px; border-radius: 25%; background-color: rgb(200, 102, 187); width: 130px;border-color:  rgb(200, 102, 187);">Submit</button><br><br>
+                </form>
+                </div>
        
 
         
