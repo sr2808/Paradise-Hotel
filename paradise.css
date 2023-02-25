@@ -1,0 +1,277 @@
+/* body div  */
+body {
+    margin: 0;
+    /* background: linear-gradient(to right,rgb(240, 223, 240),white,rgb(244, 221, 244)); */
+}
+
+
+/* Main Page div back ground Image  */
+#mainContentDiv {
+    margin: 0%;
+    background: url(mainImg.jpg) ;
+    background-size: 100% 600px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    opacity:0.95;
+    border-bottom:10px black;
+}
+
+
+
+/* ------------------  Navigation Bar ------------------------ */
+
+div.NavigationBar {
+    margin-top: 0%;
+    height: 50px;
+}
+
+
+/*----- unordered list -----*/
+ul {
+    text-align: right;
+    margin-top: 0%;
+    padding: 0%;
+    backdrop-filter: invert(blur 80%) ;
+    background-color: rgba(209, 119, 234, 0.214);
+    margin-bottom: 0%;
+}
+
+ul li {
+    align-content: center;
+    display: inline-block;
+    border-right: white 5px;
+    padding: 50px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 0%;
+}
+
+ul li a {
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 22px;
+    color: whitesmoke;
+    display: block;
+    border-right: 2px;
+    border-color: awhitesmoke;
+}
+
+li:hover, ul li a:hover{
+    background-color:rgb(144, 95, 190);
+    text-decoration: whitesmoke;
+    /* color: magenta; */
+}
+
+/* ------------------  Hotel Name ------------------------ */
+
+#welcome, #hotelName, #sokovia{
+    font-size:50px;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 2px black;
+}
+
+#hotelName{
+    font-size:100px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+
+#sokovia{
+
+}
+
+/*---------------- Main Page Logo -----------------*/
+#logo{
+    border-radius: 50% 50%;
+    image-resolution: 10px 10px;
+    float: top left;
+}
+
+#button{
+    font-size: xx-large;
+    padding: 25px;
+    text-align: center;
+    margin-left: 38%;
+    margin-right: 30%;
+    margin-top: 50px;
+    color: whitesmoke;
+    background-color:rgb(212, 179, 243);
+    border-radius: 10%;
+    border-color: rgb(238, 63, 238);
+}
+
+/*--------------- Book your room now button  -----------------*/
+
+#button a{
+    text-decoration: none;
+    margin: 3% 0% 3% 0%;
+    padding: 25px;
+    border-radius: 10%;
+    border-color: rgb(238, 63, 238);
+}
+
+#button:hover, a:hover{
+    color: whitesmoke;
+    background-color: rgb(156, 82, 225);
+    border-color: rgb(192, 135, 246);
+}
+
+/*----------------------- About Us ------------------------*/
+
+.headings{
+    padding-left: 0%;
+    color: darkmagenta;
+    display: block;
+    margin-bottom :0%; ;
+}
+
+.mainPageContent{
+    border: 3px;
+    border-radius: 5%;
+    border-color: blueviolet;
+    padding: 0% 3% 3% 2%;
+    /* display: flex; */
+    margin-top: 2%;
+    background: linear-gradient(to right,rgb(229, 177, 240),white,rgb(229, 177, 240));
+    padding:4%;
+    border: 10px linear-gradient(to right,rgb(225, 197, 232),white,rgb(229, 177, 240));
+}
+
+/* Description of About Us  */
+.para{
+    margin-top: 0%;
+    font-size: 27px;
+    margin-right:45%;
+
+}
+
+.blackbg{
+    display: block;
+    margin: auto;
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 1);
+    background-color: rgba(0, 0, 0, 0.41);
+    backdrop-filter: blur(2px);
+    padding: 20px;
+
+}
+._Button{
+    width: 10%;
+    margin: auto;
+}
+._Button button{
+    width: 160px; 
+    height: 50px;
+}
+
+/* Image  */
+#staff{
+    width: 500px;
+    border-radius: 10%;
+    /* box-shadow: 2px; */
+    float:right;
+    border: 2px groove rgb(186, 140, 238);
+    margin-top: 0%;
+}
+
+/* Learn More Button  */
+#abt, #facbutton{
+    
+    margin-left: 20%;
+    font-size: 20px;
+    background-color: rgb(171, 122, 235);
+    border-radius: 0%;
+    padding:0.5% 2% 0.5% 2%;
+    border-color: transparent;
+}
+
+#abt a, #facbutton a{
+    color: rgb(93, 1, 114);
+    text-decoration: none;
+}
+
+#abt:hover, #facbutton:hover,#abt a:hover, #facbutton a:hover{
+    color: whitesmoke;
+    background-color: blueviolet;
+    border-color: blueviolet;   
+}
+
+/*-------------------------- Facilities  -----------------------*/
+#f1, #f2, #f3{
+    border-radius: 10%;
+    width: 430px;
+    border: 2px groove rgb(186, 140, 238);
+    height: 280px;
+    margin: 1%;
+}
+
+#f2{
+    float: top center;
+}
+
+#f3{
+    float: left;
+}
+
+#facbutton{
+    margin-top: 50px;
+    margin-left: 44%;
+}
+
+
+/*------------------------------- Footer  --------------------------*/
+#footer{
+    border-radius: 2%;
+    margin-top: 2%;
+    width:1514px;
+    height:400px;
+    background-color: rgb(124, 81, 167);
+
+}
+
+#footer img{
+    margin-left: 41%;
+}
+
+.aboutUs{
+    padding: 2%;
+    width: 1455px;
+    height:600px;
+    background: linear-gradient(rgb(213, 103, 235),white,rgb(213, 103, 235));
+}
+
+
+.aboutUs h1{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 10px;
+    word-spacing: 15px;
+}
+
+.aboutUs div p{
+    padding: 5%;
+    font-size: 30px;
+
+}
+
+#footer1{
+    padding-left: 0%;
+    margin-left: 0;
+    border-radius: 2%;
+    margin-top: 2%;
+    width:1500px;
+    height:350px;
+    /* background-color: rgb(124, 81, 167); */
+
+}
+
+#footer1 img{
+    margin-left: 41%;
+}
+
+#abtUS{
+    background-color: rgb(124, 81, 167);
+}
