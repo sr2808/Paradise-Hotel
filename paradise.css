@@ -226,7 +226,7 @@ li:hover, ul li a:hover{
 #footer{
     border-radius: 2%;
     margin-top: 2%;
-    width:1514px;
+    width:100%;
     height:400px;
     background-color: rgb(124, 81, 167);
 
@@ -238,8 +238,8 @@ li:hover, ul li a:hover{
 
 .aboutUs{
     padding: 2%;
-    width: 1455px;
-    height:600px;
+    width: 100%;
+    height:800px;
     background: linear-gradient(rgb(213, 103, 235),white,rgb(213, 103, 235));
 }
 
@@ -262,8 +262,8 @@ li:hover, ul li a:hover{
     margin-left: 0;
     border-radius: 2%;
     margin-top: 2%;
-    width:1500px;
-    height:350px;
+    width:100%;
+    height:550px;
     /* background-color: rgb(124, 81, 167); */
 
 }
